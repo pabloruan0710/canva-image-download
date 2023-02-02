@@ -161,6 +161,7 @@ class CanvaThumb:
 
     
 if __name__ == '__main__':
-    canva = CanvaThumb("https://www.canva.com/p/bellakaweski/")
+    #canva = CanvaThumb("https://www.canva.com/p/profile")
+    canva = CanvaThumb(f"INPUT HERE YOUR URL PROFILE CANVAS")
     canva.load()
     canva.downloadAllimages()
